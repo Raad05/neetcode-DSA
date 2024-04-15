@@ -2,11 +2,15 @@ class Solution(object):
     def removeDuplicates(self, nums):
         count = 0
         for i in range(len(nums)):
-            if i < len(nums) - 2 and nums[i] == nums[i + 1]:
+            # if elements match, ignore it and move to next iteration
+            if i < len(nums) - 1 and nums[i] == nums[i + 1]:
                 continue
+            # else, it gets clear that the element is unique or it is the last duplicate element in the list
+            # do in-place operation within the list and increase the number of count 
             nums[count] = nums[i]
             count += 1
 
         return count
         
+# Sample input list in non-decreasing order
 # nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
