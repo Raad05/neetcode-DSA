@@ -8,3 +8,4 @@
 
 - Problem 26 - Remove Duplicates from Sorted Array
 - Problem 27 - Remove Element
+- Problem 1470 - Shuffle the Array
