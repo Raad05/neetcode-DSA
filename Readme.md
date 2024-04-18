@@ -10,3 +10,7 @@
 - Problem 27 - Remove Element
 - Problem 1470 - Shuffle the Array
 - Problem 1929 - Concatenation of Array
+
+### Stacks:
+
+- Problem 682 - Baseball Game
