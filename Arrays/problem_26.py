@@ -11,6 +11,3 @@ class Solution(object):
             count += 1
 
         return count
-        
-# Sample input list in non-decreasing order
-# nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]

@@ -10,6 +10,3 @@ class Solution(object):
             count += 1
             
         return count
-        
-# sample input list
-# nums = [3, 2, 2, 3]

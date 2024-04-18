@@ -6,7 +6,3 @@ class Solution(object):
             arr.append(nums[i + n])
 
         return arr
-    
-# sample input
-# nums = [2, 5, 1, 3, 4, 7]
-# n = 3
