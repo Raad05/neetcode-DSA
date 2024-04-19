@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def removeDuplicates(self, nums):
         count = 0
         for i in range(len(nums)):

@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def calPoints(self, operations):
         record = []
         for operation in operations:

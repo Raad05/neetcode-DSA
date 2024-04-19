@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def shuffle(self, nums, n):
         arr = []
         for i in range(n):

@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def getConcatenation(self, nums):
         n = len(nums)
         for i in range(n):
