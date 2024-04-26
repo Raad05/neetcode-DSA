@@ -16,3 +16,7 @@
 - Problem 682 - Baseball Game
 - Problem 20 - Valid Parentheses
 - Problem 155 - Min Stack
+
+### Singly Linked Lists:
+
+- Problem 206 - Reverse Linked List
