@@ -20,3 +20,4 @@
 ### Singly Linked Lists:
 
 - Problem 206 - Reverse Linked List
+- Problem 21 - Merge Two Sorted Lists
