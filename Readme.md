@@ -6,7 +6,7 @@
 
 ### Arrays:
 
-#### The Implementations folder contains the implementation of the data structure and the following problem solutions:
+#### The Implementations folder contains the implementation of the "Array" data structure and the following problem solutions:
 
 - Problem 26 - Remove Duplicates from Sorted Array
 - Problem 27 - Remove Element
