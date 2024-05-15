@@ -21,3 +21,7 @@
 
 - Problem 206 - Reverse Linked List
 - Problem 21 - Merge Two Sorted Lists
+
+### Doubly Linked Lists:
+
+- Problem 707 - Design Linked List
