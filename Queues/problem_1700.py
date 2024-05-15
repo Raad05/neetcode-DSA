@@ -1,0 +1,15 @@
+class Solution(object):
+    def countStudents(self, students, sandwiches):
+        res = len(students)
+        # using built-in hashmap
+        count = Counter(students)
+
+        for s in sandwiches:
+            if count[s] > 0:
+                res -= 1
+                count[s] -= 1
+            else:
+                return res
+            
+        return res
+        
