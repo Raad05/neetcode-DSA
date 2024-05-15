@@ -27,3 +27,4 @@
 - Problem 707 - Design Linked List
 - Problem 1472 - Design Browser History
 - Problem 1700 - Number of Students Unable to Eat Lunch
+- Problem 225 - Implement Stack using Queues
