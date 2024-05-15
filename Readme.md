@@ -25,3 +25,4 @@
 ### Doubly Linked Lists:
 
 - Problem 707 - Design Linked List
+- Problem 1472 - Design Browser History
