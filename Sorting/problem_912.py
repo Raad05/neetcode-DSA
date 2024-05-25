@@ -37,5 +37,4 @@ class Solution(object):
 
             return arr
 
-
-        return mergeSort(nums, 0, len(nums) - 1)
+        return mergeSort(nums, 0, len(nums) - 1)     
