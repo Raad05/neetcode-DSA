@@ -1,40 +1,43 @@
 class Solution(object):
     # using merge sort
     def sortArray(self, nums):
-        def merge(arr, LEFT, MID, RIGHT):
-            left, right = arr[LEFT : MID + 1], arr[MID + 1 : RIGHT + 1]
-            i, j, k = LEFT, 0, 0
+        def merge(left, right):
+            new = []
+            i, j = 0, 0
 
-            while j < len(left) and k < len(right):
-                if left[j] <= right[k]:
-                    arr[i] = left[j]
-                    j += 1
+            while i < len(left) and j < len(right):
+                if left[i] <= right[j]:
+                    new.append(left[i])
+                    i += 1
                 else:
-                    arr[i] = right[k]
-                    k += 1
+                    new.append(right[j])
+                    j += 1
 
+            while i < len(left):
+                new.append(left[i])
                 i += 1
 
-            while j < len(left):
-                arr[i] = left[j]
+            while j < len(right):
+                new.append(right[j])
                 j += 1
-                i += 1
 
-            while k < len(right):
-                arr[i] = right[k]
-                k += 1
-                i += 1
+            return new
 
-        def mergeSort(arr, left, right):
-            if left == right:
+        def mergeSort(arr):
+            if len(arr) <= 1:
                 return arr
-        
-            mid = (left + right) // 2
+            
+            mid = len(arr) // 2
 
-            mergeSort(arr, left, mid)
-            mergeSort(arr, mid + 1, right)
-            merge(arr, left, mid, right)
+            left = arr[:mid]
+            right = arr[mid:]
 
-            return arr
+            left = mergeSort(left)
+            right = mergeSort(right)
 
-        return mergeSort(nums, 0, len(nums) - 1)     
+            return merge(left, right)
+
+        return mergeSort(nums)
+    
+sort = Solution()
+print(sort.sortArray([2, 6, 5, 1, 4, 3]))
