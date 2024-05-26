@@ -36,3 +36,4 @@
 ### Sorting:
 
 - Problem 912 - Sort an Array
+- Problem 23 - Merge k Sorted Lists
