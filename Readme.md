@@ -38,3 +38,7 @@
 - Problem 912 - Sort an Array
 - Problem 23 - Merge k Sorted Lists
 - Problem 75 - Sort Colors
+
+### Binary Search:
+
+- Problem 704 - Binary Search
