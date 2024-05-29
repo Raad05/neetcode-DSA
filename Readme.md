@@ -43,3 +43,4 @@
 
 - Problem 704 - Binary Search
 - Problem 74 - Search a 2D Matrix
+- Problem 374 - Guess Number Higher or Lower
