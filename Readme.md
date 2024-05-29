@@ -42,3 +42,4 @@
 ### Binary Search:
 
 - Problem 704 - Binary Search
+- Problem 74 - Search a 2D Matrix
