@@ -45,3 +45,7 @@
 - Problem 74 - Search a 2D Matrix
 - Problem 374 - Guess Number Higher or Lower
 - Problem 278 - First Bad Version
+
+### Trees:
+
+- Problem 700 - Search in a Binary Search Tree
