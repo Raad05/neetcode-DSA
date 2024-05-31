@@ -6,17 +6,17 @@
 #         self.right = right
 
 # with recursion
-# class Solution(object):
-#     def searchBST(self, root, val):
-#         if not root:
-#             return None
+class Solution(object):
+    def searchBST(self, root, val):
+        if not root:
+            return None
         
-#         if val > root.val:
-#             return self.searchBST(root.right, val)
-#         elif val < root.val:
-#             return self.searchBST(root.left, val)
-#         else:
-#             return root
+        if val > root.val:
+            return self.searchBST(root.right, val)
+        elif val < root.val:
+            return self.searchBST(root.left, val)
+        else:
+            return root
 
 # without recursion     
 class Solution(object):
