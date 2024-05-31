@@ -17,15 +17,15 @@
 - Problem 20 - Valid Parentheses
 - Problem 155 - Min Stack
 
-### Singly Linked Lists:
+### Linked Lists:
 
 - Problem 206 - Reverse Linked List
 - Problem 21 - Merge Two Sorted Lists
-
-### Doubly Linked Lists:
-
 - Problem 707 - Design Linked List
 - Problem 1472 - Design Browser History
+
+### Queues:
+
 - Problem 1700 - Number of Students Unable to Eat Lunch
 - Problem 225 - Implement Stack using Queues
 
@@ -49,3 +49,4 @@
 ### Trees:
 
 - Problem 700 - Search in a Binary Search Tree
+- Problem 235 - Lowest Common Ancestor of a Binary Search Tree
