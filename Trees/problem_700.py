@@ -30,3 +30,5 @@ class Solution(object):
                 current = current.left
             else:
                 return current
+            
+        return current
