@@ -50,3 +50,4 @@
 
 - Problem 700 - Search in a Binary Search Tree
 - Problem 235 - Lowest Common Ancestor of a Binary Search Tree
+- Problem 701 - Insert into a Binary Search Tree
