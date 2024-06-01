@@ -17,3 +17,27 @@ class Solution(object):
             root.left = self.insertIntoBST(root.left, val)
             
         return root
+    
+# without recursion
+class Solution(object):
+    def insertIntoBST(self, root, val):
+        if not root:
+            return TreeNode(val)
+        
+        current = root
+
+        while True:
+            if val > current.val:
+                if current.right:
+                    current = current.right
+                else:
+                    current.right = TreeNode(val)
+                    break
+            elif val < current.val:
+                if current.left:
+                    current = current.left
+                else:
+                    current.left = TreeNode(val)
+                    break
+
+        return root
