@@ -52,3 +52,4 @@
 - Problem 235 - Lowest Common Ancestor of a Binary Search Tree
 - Problem 701 - Insert into a Binary Search Tree
 - Problem 450 - Delete Node in a BST
+- Problem 94 - Binary Tree Inorder Traversal
