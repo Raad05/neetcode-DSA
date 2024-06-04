@@ -54,3 +54,4 @@
 - Problem 450 - Delete Node in a BST
 - Problem 94 - Binary Tree Inorder Traversal
 - Problem 230 - Kth Smallest Element in a BST
+- Problem 105 - Construct Binary Tree from Preorder and Inorder traversal
