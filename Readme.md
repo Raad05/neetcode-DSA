@@ -53,3 +53,4 @@
 - Problem 701 - Insert into a Binary Search Tree
 - Problem 450 - Delete Node in a BST
 - Problem 94 - Binary Tree Inorder Traversal
+- Problem 230 - Kth Smallest Element in a BST
