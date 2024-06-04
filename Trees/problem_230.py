@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# recursive approach
 class Solution(object):
     def kthSmallest(self, root, k):
         res = []
@@ -19,4 +21,23 @@ class Solution(object):
         inOrder(root)
 
         return res[k - 1]
-        
+
+# iterative approach   
+class Solution(object):
+    def kthSmallest(self, root, k):
+        count = 0
+        stack = []
+        current = root
+
+        while current or stack:
+            while current:
+                stack.append(current)
+                current = current.left
+
+            current = stack.pop()
+            count += 1
+
+            if count == k:
+                return current.val
+            
+            current = current.right
