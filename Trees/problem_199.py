@@ -7,15 +7,23 @@
 class Solution(object):
     def rightSideView(self, root):
         res = []
+        queue = deque()
 
-        def preOrder(root):
-            if not root:
-                return
-            
-            res.append(root.val)
-            preOrder(root.right)
+        if root:
+            queue.append(root)
 
-        preOrder(root)
+        while queue:
+            rightSide = None
+
+            for i in range(len(queue)):
+                current = queue.popleft()
+
+                if current:
+                    rightSide = current
+                    queue.append(current.left)
+                    queue.append(current.right)
+
+            if rightSide:
+                res.append(rightSide.val)
 
         return res
-        
