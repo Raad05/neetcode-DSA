@@ -15,6 +15,8 @@
 
 ### Stacks:
 
+#### The Implementations folder contains the implementation of the "Stack" data structure and the following problem solutions:
+
 - Problem 682 - Baseball Game
 - Problem 20 - Valid Parentheses
 - Problem 155 - Min Stack
