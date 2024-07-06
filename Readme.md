@@ -66,3 +66,4 @@
 ### Heap:
 
 - Problem 703 - Kth Largest Element in a Stream
+- Problem 1046 - Last Stone Weight
