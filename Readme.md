@@ -62,6 +62,7 @@
 
 - Problem 112 - Path Sum
 - Problem 78 - Subsets
+- Problem 39 - Combination Sum
 
 ### Heap:
 
