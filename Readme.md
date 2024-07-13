@@ -70,3 +70,8 @@
 - Problem 1046 - Last Stone Weight
 - Problem 973 - K Closest Points to Origin
 - Problem 215 - Kth Largest Element in an Array
+
+### Hashing:
+
+- Problem 217 - Contains Duplicate
+- Problem 1 - Two Sum
