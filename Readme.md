@@ -23,6 +23,8 @@
 
 ### Linked Lists:
 
+#### The Implementations folder contains the implementation of the "Linked List" data structure and the following problem solutions:
+
 - Problem 206 - Reverse Linked List
 - Problem 21 - Merge Two Sorted Lists
 - Problem 707 - Design Linked List
