@@ -32,6 +32,8 @@
 
 ### Queues:
 
+#### The Implementations folder contains the implementation of the "Queue" data structure and the following problem solutions:
+
 - Problem 1700 - Number of Students Unable to Eat Lunch
 - Problem 225 - Implement Stack using Queues
 
