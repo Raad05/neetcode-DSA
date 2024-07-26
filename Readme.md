@@ -39,11 +39,13 @@
 
 ### Recursion:
 
-#### The Implementations folder contains the implementation of the "Recursion" data structure and the following problem solutions:
+#### The Implementations folder contains the implementation of the "Recursion" methods and the following problem solutions:
 
 - Problem 509 - Fibonacci Number
 
 ### Sorting:
+
+#### The Implementations folder contains the implementation of the "Sorting" algorithms and the following problem solutions:
 
 - Problem 912 - Sort an Array
 - Problem 23 - Merge k Sorted Lists
