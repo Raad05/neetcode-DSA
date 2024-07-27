@@ -53,6 +53,8 @@
 
 ### Binary Search:
 
+#### The Implementations folder contains the implementation of the "Binary Search" algorithm and the following problem solutions:
+
 - Problem 704 - Binary Search
 - Problem 74 - Search a 2D Matrix
 - Problem 374 - Guess Number Higher or Lower
