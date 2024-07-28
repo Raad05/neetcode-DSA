@@ -62,6 +62,8 @@
 
 ### Trees:
 
+#### The Implementations folder contains the implementation of the "Tree" data structure and the following problem solutions:
+
 - Problem 700 - Search in a Binary Search Tree
 - Problem 235 - Lowest Common Ancestor of a Binary Search Tree
 - Problem 701 - Insert into a Binary Search Tree
