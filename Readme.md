@@ -84,6 +84,8 @@
 
 ### Heap:
 
+#### The Implementations folder contains the implementation of the "Heap" data structure and the following problem solutions:
+
 - Problem 703 - Kth Largest Element in a Stream
 - Problem 1046 - Last Stone Weight
 - Problem 973 - K Closest Points to Origin
