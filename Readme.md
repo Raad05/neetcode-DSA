@@ -76,6 +76,8 @@
 
 ### Backtracking:
 
+#### The Implementations folder contains the implementation of the "Backtracking" algorithms and the following problem solutions:
+
 - Problem 112 - Path Sum
 - Problem 78 - Subsets
 - Problem 39 - Combination Sum
