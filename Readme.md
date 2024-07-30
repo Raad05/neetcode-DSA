@@ -93,5 +93,7 @@
 
 ### Hashing:
 
+#### The Implementations folder contains the implementation of the "Binary Hashing" algorithms and the following problem solutions:
+
 - Problem 217 - Contains Duplicate
 - Problem 1 - Two Sum
