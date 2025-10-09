@@ -82,4 +82,8 @@
 
 ### Sliding WIndow
 
-- Problem 53 -Maximum SubArray
+- Problem 53 - Maximum SubArray
+
+### Bit Manipulation
+
+- Problem 371 - Sum of Two Integers
